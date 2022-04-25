@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Titre</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+            <h1>Voici une petite formulaire:</h1>
+            	
+		<form>
+				<fieldset id="section-1">
+					<legend class="ligne">Information personel</legend>
+			<label for="nom">1-Entrez votre nom et votre prenom : </label>
+            <input type="text" id="nom" required>
+        
+        <div><br>
+        	<label type="password" placeholder="Mot de passe">2-Entrez votre mot de passe :
+        	</label>
+        	<input type="password" name="password">
+        </div><br>
+
+                <div>
+    	<label for="time">3-Entrez votre date de naissance :
+        	</label>
+        	<input type="date" name="time" id="time" required>
+        </div><br>
+        		</fieldset id="section-2"><br>
+
+        		<fieldset>
+        			<legend class="ligne">Les choses à cocher</legend>
+
+        <div>
+        	4-Choisissez votre sexe :<br>
+        	<input type="radio" name="sexe" value="Homme" id="Homme">
+        	<label for="Homme">Homme</label><br>
+        	<input type="radio" name="sexe" value="Femme" id="Femme">
+        	<label for="Femme">Femme</label><br>
+        	<input type="radio" name="sexe" value="Rien" id="Rien">
+        	<label for="Rien">Particulier</label><br>
+        </div><br>
+
+        <div>
+        	5-Quelles genres de sport pratiquez-vous ?<br>
+        	<input type="checkbox" name="sport" value="Foot" id="Foot">
+        	<label for="Foot">Football</label><br>
+        	<input type="checkbox" name="basket" value="Basket" id="Basket">
+        	<label for="Basket">Basketball</label><br>
+        	<input type="checkbox" name="rugby" value="Rugby" id="Rugby">
+        	<label for="Rugby">Rugby</label><br>
+        	<input type="checkbox" name="natation" value="Natation" id="Natation">
+        	<label for="Natation">Natation</label>
+        </div><br>
+
+        <div>
+        	6-Ou habiter vous ?
+        	<select name="pays">
+        		<option value="France">France</option>
+        		<option value="Brezil">Brezil</option>
+        		<option value="Madagascar">Madagascar</option>
+        		<option value="Angleterre">Angleterre</option>
+        		<option value="Allemagne">Allemagne</option>
+        		<option value="Russie">Russie</option>
+        		<option value="Togo">Togo</option>
+        		<option value="Canada">Canada</option>
+        	</select>
+        </div><br>
+
+        		</fieldset> <br>
+
+         <div>
+            <input type="submit" value="Envoyer vers la destnation">
+        </div><br>
+
+		</form>
+	</body>    
+</html>
